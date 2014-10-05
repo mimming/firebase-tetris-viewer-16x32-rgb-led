@@ -1,0 +1,23 @@
+{
+  "player0" : {
+    "board" : [ null, null, null, null, null, null, null, null, "     P    ", "    PPP   ", "    bbbb  ", "    RR    ", "     RR   ", "    bbbb  ", "     YY   ", "     YY   ", "      O   ", "    OOO   ", "     P    ", "    PPP   " ],
+    "online" : true,
+    "piece" : {
+      "pieceNum" : 4,
+      "rotation" : 0,
+      "x" : 4,
+      "y" : 0
+    }
+  },
+  "player1" : {
+    "board" : [ null, null, null, null, null, null, null, "      O   ", "    OOO P ", "     GGPPP", "    GGYY  ", "B     YY  ", "BBB   GG  ", " B   GG   ", " BBB Obbbb", " BBOOOGG  ", " Bb  GG G ", "bBbYY B GG", "b bYY BYYG", "b bOBBBYYO" ],
+    "online" : true,
+    "piece" : {
+      "pieceNum" : 2,
+      "rotation" : 0,
+      "x" : 4,
+      "y" : 4
+    },
+    "restart" : 0
+  }
+}

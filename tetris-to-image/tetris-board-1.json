@@ -1,0 +1,17 @@
+{
+  "player0" : {
+    "board" : [ null, null, null, null, null, null, null, null, null, null, " G        ", " GG RYY   ", "BBGRRYY   ", "RGGB PPP b", "GGOB RRP b", "OOOR GRRYY", " bRR GG YY", " bRPPPG GG", " b PPYYGGO", " bPPPYYOOO" ],
+    "online" : true,
+    "piece" : {
+      "pieceNum" : 1,
+      "rotation" : 0,
+      "x" : 4,
+      "y" : 0
+    }
+  },
+  "player1" : {
+    "extrarows" : {
+      "-JYRkDmaqVAwy6pYJSJA" : 1
+    }
+  }
+}
