@@ -19,10 +19,15 @@ It displays the first player's board state a web Tetris game on a 16x32 LED pane
 0. Start a [Firebase JavaScript exmaple Tetris game](https://www.firebase.com/tutorial/#example/tetris)
 0. Copy all of this code to the Raspberry Pi
 0. Compile `led-matrix`
+
         $ cd rpi-rgb-led-matrix && make 
+
 0. Copy `led-matrix` into `tetris-to-image` folder
 0. Update the Firebase hard coded in `tetris-to-image` to match the value for your Tetris demo
 0. Run the node image maker
+
         $ node make-ppm-from-tetris.js
+
 0. Run `led-matrix` in a crude bash loop because it will crash constantly because I don't really know C++.
+
         $ while true ; do sudo ./led-matrix 1 image.ppm ; sleep 1; done
