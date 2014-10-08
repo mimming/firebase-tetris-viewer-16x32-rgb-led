@@ -212,7 +212,7 @@ public:
         }
       }
       // reload the file
-      usleep(10 * 1000);
+      usleep(250 * 1000);
       LoadPPM(filename_);
     }
   }
