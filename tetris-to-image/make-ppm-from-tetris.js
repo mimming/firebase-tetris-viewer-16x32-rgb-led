@@ -2,7 +2,7 @@ var ppm = require("binaryppm");
 var fs = require("fs");
 var Firebase = require("firebase");
 
-var tetrisFirebase = new Firebase("https://s48fmnxkmt7.firebaseio-demo.com/");
+var tetrisFirebase = new Firebase("https://a5ul9cul6hd.firebaseio-demo.com/");
 
 var colorMap = {
   R: [255,0,0],
