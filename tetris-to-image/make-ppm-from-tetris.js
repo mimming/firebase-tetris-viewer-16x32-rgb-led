@@ -50,9 +50,10 @@ tetrisFirebase.child("player0/board").on("value", function(snapshot) {
     })
   });
   var imageStream = ppm.serialize(transposedPixels);
-  var fileStream = fs.createWriteStream("image.ppm");
+  var fileStream = fs.createWriteStream("imagetmp.ppm");
 
   imageStream.pipe(fileStream);
+  fs.rename("imagetmp.ppm", "image.ppm");
   console.log(".");
 });
 
